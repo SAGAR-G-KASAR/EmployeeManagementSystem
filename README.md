@@ -79,4 +79,5 @@ Frontend Developer (React.js)
 
 
 ## Output
-Screenshots/Home.png
+![Home Page](./public/images/Home.png)
+
