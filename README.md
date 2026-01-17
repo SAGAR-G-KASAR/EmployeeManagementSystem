@@ -80,4 +80,4 @@ Frontend Developer (React.js)
 
 ## Output
 ![Home Page](./public/images/Home.png)
-
+![Create Page](./public/images/Create.png)
