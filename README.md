@@ -32,6 +32,11 @@ This project demonstrates basic **CRUD operations**, **search**, and **filtering
 - VS Code
 
 ---
+## 🎬 Animations (GSAP)
+
+This project uses **GSAP (GreenSock Animation Platform)** to create smooth and modern animations.
+
+---
 
 ## Home Component Description
 
@@ -79,5 +84,6 @@ Frontend Developer (React.js)
 
 
 ## Output
+![Landing Page](./public/images/LandingPage.png)
 ![Home Page](./public/images/Home.png)
 ![Create Page](./public/images/Create.png)

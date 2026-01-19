@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import Logo from "../logo/Union.svg"; 
+import Logo from "../logo/Union.svg";
 
 function Header() {
   return (
     <header className="sticky top-0 z-50 h-16 w-full bg-white/10 backdrop-blur-lg border-b border-white/10">
       <div className="mx-auto flex h-full max-w-7xl  items-center px-3  lg:px-6">
-        
         {/* Logo */}
         <img
           src={Logo}
@@ -18,7 +17,7 @@ function Header() {
           <ul className="flex gap-6">
             <li>
               <Link
-                to="/"
+                to="/home"
                 className="text-white font-bold text-lg lg:text-xl hover:text-sky-400 transition"
               >
                 Home
@@ -26,7 +25,6 @@ function Header() {
             </li>
           </ul>
         </nav>
-
       </div>
     </header>
   );

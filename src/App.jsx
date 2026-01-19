@@ -5,6 +5,7 @@ import Home from "./Pages/Home";
 import { useState } from "react";
 import { EmpData } from "./EmpData";
 import EmployeeForm from "./Pages/EmployeeForm";
+import Landing from "./Pages/Landing";
 
 const App = () => {
   const [data, setData] = useState(EmpData);
@@ -15,7 +16,11 @@ const App = () => {
       element: <AppLayout />,
       children: [
         {
-          index: true, // "/" route
+          index: true, // "/"
+          element: <Landing />,
+        },
+        {
+          path: "/home", // "/home"
           element: <Home data={data} setData={setData} />,
         },
         {
