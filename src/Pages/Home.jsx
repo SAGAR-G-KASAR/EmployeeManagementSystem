@@ -36,13 +36,7 @@ function Home({ data, setData }) {
 
   /* GSAP ANIMATIONS  */
   useEffect(() => {
-    // Page fade in
-    gsap.fromTo(
-      pageRef.current,
-      { opacity: 0 },
-      { opacity: 1, duration: 0.6 }
-    );
-
+  
     // Table fade
     gsap.from(tableRef.current, {
       opacity: 10,
