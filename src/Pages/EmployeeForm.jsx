@@ -34,7 +34,7 @@ function EmployeeForm({ data, setData }) {
       <AnimatedBackground />
       <button
         onClick={() => navigate(-1)}
-        className="px-3 text-2xl justify-center fixed m-2 h-8 cursor-pointer text-white rounded  transition"
+        className="px-3 text-2xl justify-center fixed top-17 m-2 h-8 cursor-pointer text-white rounded  transition"
       >
         <IoMdArrowRoundBack />
       </button>
